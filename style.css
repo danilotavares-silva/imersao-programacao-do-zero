@@ -110,7 +110,49 @@ ul,ol {
 }
 
 .habilidades h2{
-    font-size: 54px;
+    font-size: 42px;
     margin-bottom: 20px;
 }
 
+.habilidade {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 12px;
+    width: 288px
+}
+
+.habilidade h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.habilidade p {
+    font-size: 20px;
+}
+
+.progresso{
+    width: 100%;
+    display: flex;
+}
+
+.barra{
+    width: 20%;
+    margin-top: 8px;
+    height: 4px;
+    background-color: #4200ff;
+}
+
+.incompleto {
+    opacity: 0.2;
+}
+
+.habilidade li+li{
+    margin-top: 32px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
